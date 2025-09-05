@@ -191,6 +191,11 @@ p {
   padding-left: 1rem;
 }
 
+.lft-text p {
+  padding-top: 1rem;
+  color: #696984;
+}
+
 .tools div p {
   color: #828299;
 }
@@ -422,11 +427,6 @@ h3 {
 
 .leo {
   width: 95%;
-}
-
-.lft-text p {
-  padding-top: 1rem;
-  color: #696984;
 }
 
 .bee {
