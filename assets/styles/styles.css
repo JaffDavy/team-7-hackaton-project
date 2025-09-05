@@ -526,14 +526,8 @@ h3 {
   }
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 @media screen and (max-width: 430px) {
-  
+
   .container1 {
     margin: 0;
     padding: 0;
@@ -678,12 +672,11 @@ h3 {
   .overlay5 {
     margin-top: 50px;
     margin-left: 14px;
-    box-shadow: 2px 2px 2px 2px rgb(172, 158, 158);
+    box-shadow: 2px 2px 2px 2px #ac9e9e;
     border-radius: 5px;
     color: gray;
     padding: 10px;
     margin-bottom: 54px;
-    border-radius: 2px;
     width: 340px;
     background: whitesmoke;
   }
@@ -776,14 +769,14 @@ h3 {
   }
 
   .fb {
-    color: #1877F2;
+    color: #1877f2;
     gap: 4px;
   }
 
   .net {
-    color: #E50914;
+    color: #e50914;
     gap: 4px;
-    box-shadow: -1px -1px 1px 1px #E50914;
+    box-shadow: -1px -1px 1px 1px #e50914;
     width: 140px;
     padding: 6px;
     background: black;
@@ -898,8 +891,12 @@ h3 {
     margin-top: 15px;
   }
 
+  .lash3 span {
+    color: var(--secondary-color);
+  }
+
   .sec4m h2 span {
-    color: #F48C06;
+    color: #f48c06;
   }
 
   .sec4m p {
@@ -937,10 +934,6 @@ h3 {
     font-size: 20px;
   }
 
-  .lash3 span {
-    color: var(--secondary-color);
-  }
-
   .lasdiv {
     display: flex;
     font-size: 18px;
@@ -971,7 +964,6 @@ h3 {
   .justify-left {
     display: flex;
     width: 100%;
-    
   }
   
   .finir2 {
