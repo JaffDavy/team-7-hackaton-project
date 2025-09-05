@@ -526,6 +526,7 @@ h3 {
   }
 }
 
+<<<<<<< HEAD
 @media screen and (max-width: 430px) {
   .container1 {
     margin: 0;
@@ -978,9 +979,7 @@ h3 {
 
   .img2 {
     width: 90%;
-  }
-}
-
+=======
 @media screen and (min-width:600px) and (max-width:1024px){
   #top-bt {
     display: flex;
@@ -989,5 +988,6 @@ h3 {
 
   .images {
     height: 0%;
+>>>>>>> 7aa01fe (done with all  the mobile footer area)
   }
 }
