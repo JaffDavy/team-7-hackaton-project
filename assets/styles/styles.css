@@ -527,7 +527,6 @@ h3 {
 }
 
 @media screen and (max-width: 430px) {
-
   .container1 {
     margin: 0;
     padding: 0;
@@ -733,7 +732,7 @@ h3 {
     justify-content: center;
     margin-top: 34px;
     font-weight: bold;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: Cambria, Cochin, Georgia, Times, "imes New Roman" serif;
     font-size: 24px;
   }
 
@@ -754,7 +753,7 @@ h3 {
   }
 
   .g4 {
-    color: blue;
+    color: #0000ff;
     margin-right: 4px;
   }
 
@@ -953,19 +952,18 @@ h3 {
   .finirm {
     width: 90%;
     position: relative;
-
   }
 
   .finir1 {
     position: relative;
     width: 100px;
   }
-  
+
   .justify-left {
     display: flex;
     width: 100%;
   }
-  
+
   .finir2 {
     position: absolut;
     width: 97%;
