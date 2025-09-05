@@ -30,19 +30,18 @@ main {
   gap: 10px;
 }
 
-span1 {
+span {
   color: var(--primary-color);
 }
 
-span2 {
+.orange-txt {
   color: var(--secondary-color);
 }
 
 .feature-header p {
   display: flex;
   text-align: center;
-  color: #828299
-  ;
+  color: #828299;
 }
 
 .color-circls {
@@ -53,7 +52,7 @@ span2 {
   margin-bottom: 2rem;
 }
 
-.lemon-green-Circle {
+.lemongreencircle {
   height: 4rem;
   width: 4rem;
   background-color: #33efa0;
@@ -85,7 +84,7 @@ span2 {
   bottom: 25rem;
 }
 
-.red-Circle {
+.redcircle {
   height: 1rem;
   margin-top: 4rem;
   width: 1rem;
@@ -105,9 +104,15 @@ span2 {
   position: absolute;
 }
 
+.txt h1 {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
 .card-text {
   position: absolute;
-  margin-top: 17rem;
+  margin-top: 18rem;
 }
 
 .card-text div h1 {
@@ -126,6 +131,10 @@ span2 {
   color: #828299;
 }
 
+.txt p {
+  color: #828299;
+}
+
 .tools {
   margin-top: 36rem;
 }
@@ -134,15 +143,7 @@ span2 {
   text-align: center;
 }
 
-.txt h1 {
-  text-align: center;
-}
-
 .tools div p {
-  color: #828299;
-}
-
-.txt p {
   color: #828299;
 }
 
@@ -157,8 +158,8 @@ span2 {
 
 .feature-button button {
   padding: 1rem;
-  color: #F7AF53;
-  border-color: #F7AF53;
+  color: #f7af53;
+  border-color: #f7af53;
   border-radius: 20px;
   display: flex;
   background-color: #ffff;
