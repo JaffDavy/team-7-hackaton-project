@@ -1,5 +1,173 @@
 :root {
-  --primary-color: #2F327D;
-  --secondary-color: #F48C06;
-  --tertiary-color: #65DAFF;
+  --primary-color: #2f327d;
+  --secondary-color: #f48c06;
+  --tertiary-color: #65daff;
+}
+
+body {
+  color: #fff;
+}
+
+main {
+  margin: 1rem;
+}
+
+.feature-section {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.feature-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.feature-header h1 {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+span {
+  color: var(--primary-color);
+}
+
+.orange-txt {
+  color: var(--secondary-color);
+}
+
+.feature-header p {
+  display: flex;
+  text-align: center;
+  color: #828299;
+}
+
+.color-circls {
+  display: flex;
+  gap: 2rem;
+  margin-left: 1.5rem;
+  position: absolute;
+  margin-bottom: 2rem;
+}
+
+.lemongreencircle {
+  height: 4rem;
+  width: 4rem;
+  background-color: #33efa0;
+  border-radius: 50px;
+}
+
+.blue-circle {
+  height: 1rem;
+  width: 1rem;
+  background-color: #33d9ef;
+  border-radius: 50px;
+}
+
+.first-feature-img {
+  width: 93vw;
+  margin-top: 2rem;
+}
+
+.first-feature-img img {
+  width: 93vw;
+  position: relative;
+}
+
+.color2-circls {
+  display: flex;
+  gap: 1rem;
+  margin-left: 10rem;
+  position: absolute;
+  bottom: 25rem;
+}
+
+.redcircle {
+  height: 1rem;
+  margin-top: 4rem;
+  width: 1rem;
+  background-color: #f56666;
+  border-radius: 50px;
+}
+
+.royal-blue-circle {
+  height: 6rem;
+  width: 6rem;
+  background-color: #5b61eb;
+  border-radius: 50px;
+  z-index: -1;
+}
+
+.img-possition {
+  position: absolute;
+}
+
+.txt h1 {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.card-text {
+  position: absolute;
+  margin-top: 18rem;
+}
+
+.card-text div h1 {
+  text-align: center;
+}
+
+.img-logo {
+  padding: 0.8rem;
+  background-color: #fbfbfb;
+  border-radius: 50px;
+}
+
+.icontxt {
+  display: flex;
+  gap: 1rem;
+  color: #828299;
+}
+
+.txt p {
+  color: #828299;
+}
+
+.tools {
+  margin-top: 36rem;
+}
+
+.tools div h1 {
+  text-align: center;
+}
+
+.tools div p {
+  color: #828299;
+}
+
+.tool3 div h1 {
+  text-align: center;
+}
+
+.tool3 div p {
+  /* text-align: center; */
+  color: #828299;
+}
+
+.feature-button button {
+  padding: 1rem;
+  color: #f7af53;
+  border-color: #f7af53;
+  border-radius: 20px;
+  display: flex;
+  background-color: #ffff;
+  justify-content: center;
+  align-content: center;
+}
+
+.feature-button {
+  display: flex;
+  justify-content: center;
 }
