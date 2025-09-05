@@ -120,7 +120,6 @@ p {
   margin-top: 18rem;
 }
 
-
 .test-left h1 {
   color: #2f327d;
   font-size: 1.8rem;
@@ -186,6 +185,11 @@ p {
   font-size: larger;
 }
 
+.test-left p {
+  padding-top: 4px;
+  color: #696984;
+  padding-left: 1rem;
+}
 
 .tools div p {
   color: #828299;
@@ -251,7 +255,7 @@ p {
   margin: 1rem;
 }
 
- .rat {
+.rat {
   font-size: small;
   color: #525596;
 } 
@@ -295,12 +299,6 @@ h3 {
   gap: 2rem;
   background-color: #ffff;
   margin: 1rem;
-}
-
-.test-left p {
-  padding-top: 4px;
-  color: #696984;
-  padding-left: 1rem;
 }
 
 .bnt-2 {
