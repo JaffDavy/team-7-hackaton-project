@@ -38,6 +38,11 @@ span {
   color: var(--secondary-color);
 }
 
+p {
+  line-height: 25px;
+  color: #626381;
+}
+
 .feature-header p {
   display: flex;
   text-align: center;
@@ -115,6 +120,25 @@ span {
   margin-top: 18rem;
 }
 
+
+.test-left h1 {
+  color: #2f327d;
+  font-size: 1.8rem;
+  padding-top: 6px;
+}
+
+.news h1 {
+  color: #525596;
+  font-weight: 700;
+  font-size: 1.8rem;
+}
+
+.lft-text h1 {
+  line-height: 1.5rem;
+  color: #696984;
+  font-weight: 800;
+}
+
 .card-text div h1 {
   text-align: center;
 }
@@ -142,6 +166,26 @@ span {
 .tools div h1 {
   text-align: center;
 }
+
+.integration p {
+  color: #696984;
+}
+
+.news p {
+  color: #696984;
+  padding-top: 4px;
+}
+
+.add p {
+  padding-top: 1rem;
+  color: #696984;
+}
+
+.mid p {
+  color: #696984;
+  font-size: larger;
+}
+
 
 .tools div p {
   color: #828299;
@@ -203,24 +247,24 @@ span {
   margin-top: 5%;
 }
 
-.integration {
+.integration-1 {
   margin: 1rem;
 }
 
-span {
+ .rat {
   font-size: small;
   color: #525596;
-}
+} 
 
 h2 {
-  color: #2F327D;
+  color: #2f327d;
   font-weight: 700;
   font-size: 1.8rem;
   margin: 0.1rem;
 }
 
 h3 {
-  color: #F48C06;
+  color: #f48c06;
   font-weight: 700;
   font-size: 1.8rem;
   width: 80%;
@@ -231,15 +275,11 @@ h3 {
   gap: 10px;
 }
 
-.integration p {
-  color: #696984;
-}
-
 .bnt-1 {
-  border-color: #F48C06;
+  border-color: #f48c06;
   border-radius: 20px;
   height: 3rem;
-  color: #F48C06;
+  color: #f48c06;
   width: 10rem;
   background-color: #fff;
 }
@@ -257,12 +297,6 @@ h3 {
   margin: 1rem;
 }
 
-.test-left h1 {
-  color: #2F327D;
-  font-size: 1.8rem;
-  padding-top: 6px;
-}
-
 .test-left p {
   padding-top: 4px;
   color: #696984;
@@ -270,10 +304,10 @@ h3 {
 }
 
 .bnt-2 {
-  border-color: #F48C06;
+  border-color: #f48c06;
   border-radius: 20px;
   height: 3rem;
-  color: #F48C06;
+  color: #f48c06;
   width: 15rem;
   background-color: #fff;
   margin-right: 2rem;
@@ -298,7 +332,7 @@ h3 {
   margin-top: -6rem;
   position: absolute;
   background-color: #ffff;
-  border-left: #F67766 8px solid;
+  border-left: #f67766 8px solid;
   width: 81%;
 }
 
@@ -306,10 +340,6 @@ h3 {
   padding-top: 2rem;
   width: 95%;
   padding-left: 1rem;
-}
-
-p {
-  line-height: 25px;
 }
 
 .gloria {
@@ -327,17 +357,6 @@ p {
 #latest {
   margin-top: 14rem;
   margin-left: 5%;
-}
-
-.news h1 {
-  color: #525596;
-  font-weight: 700;
-  font-size: 1.8rem;
-}
-
-.news p {
-  color: #696984;
-  padding-top: 4px;
 }
 
 .center {
@@ -367,11 +386,6 @@ p {
 
 .add h2 {
   color: #626381;
-}
-
-.add p {
-  padding-top: 1rem;
-  color: #696984;
 }
 
 .latest-lft a span {
@@ -408,12 +422,6 @@ p {
   margin-top: 1rem;
 }
 
-.lft-text h1 {
-  line-height: 1.5rem;
-  color: #696984;
-  font-weight: 800;
-}
-
 .leo {
   width: 95%;
 }
@@ -435,7 +443,7 @@ p {
 
 #footer {
   height: 38vh;
-  background-color: #2F327D;
+  background-color: #2f327d;
 }
 
 .upper {
@@ -476,11 +484,6 @@ p {
   width: 70%;
   margin-left: 4rem;
   color: #626381;
-}
-
-.mid p {
-  color: #696984;
-  font-size: larger;
 }
 
 .email {
