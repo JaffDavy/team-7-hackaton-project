@@ -6,13 +6,12 @@
   --text-dark: #2f327d;
   --text-light: #696984;
   --background-cream: #fff2e1;
-  --background-white: #ffffff;
+  --background-white: #ffff;
   --border-radius: 12px;
-  --shadow-light: 0px 4px 12px rgba(0, 0, 0, 0.08);
-  --shadow-medium: 0px 6px 16px rgba(0, 0, 0, 0.15);
+  --shadow-light: 0px 4px 12px #014;
+  --shadow-medium: 0px 6px 16px #026;
 }
 
-/* Reset and base styles */
 * {
   margin: 0;
   padding: 0;
@@ -207,7 +206,7 @@ body {
     font-size: 1.8rem;
   }
 
-  .sec4m > p {
+  .sec4m p {
     font-size: 1rem;
     padding: 0 1rem;
   }
@@ -2338,29 +2337,29 @@ body {
   height: 35rem;
 }
 
-  .justify-left {
-    display: flex;
-    width: 100%;
-  }
+.justify-left {
+  display: flex;
+  width: 100%;
+}
 
-  .finir2 {
-    position: absolut;
-    width: 97%;
-  }
+.finir2 {
+  position: absolut;
+  width: 97%;
+}
 
-  .over2 {
-    width: 22rem;
-  }
+.over2 {
+  width: 22rem;
+}
 
-  .over {
-    width: 95%;
-  }
+.over {
+  width: 95%;
+}
 
-  .img2 {
-    width: 90%;
-  }
+.img2 {
+  width: 90%;
+}
 
-@media screen and (min-width:600px) and (max-width:1024px){
+@media screen and (min-width: 600px) and (max-width: 1024px) {
   #top-bt {
     display: flex;
     flex-wrap: wrap;
