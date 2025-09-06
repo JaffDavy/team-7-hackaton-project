@@ -560,6 +560,10 @@ body {
     margin-bottom: 1rem;
   }
 
+  .lash3 span {
+    color: var(--secondary-color);
+  }
+
   .sec3m1 h1 span {
     color: var(--secondary-color);
   }
@@ -925,10 +929,6 @@ body {
     display: none;
   }
 
-  .mobile-hero {
-    display: none;
-  }
-
   .feature-header {
     text-align: center;
     margin-bottom: 3rem;
@@ -1172,10 +1172,6 @@ body {
     color: white;
   }
 
-  .lash3 span {
-    color: var(--secondary-color);
-  }
-
   .imgtx h1 {
     font-size: 1.3rem;
     margin-bottom: 0.5rem;
@@ -1344,6 +1340,10 @@ body {
     font-weight: bold;
   }
 
+  .lash3 span {
+    color: var(--secondary-color);
+  }
+
   .herotxt h1 span {
     color: var(--secondary-color);
   }
@@ -1353,8 +1353,7 @@ body {
     color: var(--text-light);
     line-height: 1.6;
   }
-
-  .acsses {
+  herotxt .acsses {
     display: flex;
     align-items: center;
     gap: 2rem;
@@ -2023,6 +2022,24 @@ body {
   transition: opacity 0.3s ease;
 }
 
+.picdi img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: var(--border-radius);
+}
+
+.finirm img {
+  max-width: 100%;
+  width: 40rem;
+  border-radius: var(--border-radius);
+}
+
+.first-feature-img img {
+  width: 35rem;
+  height: 35rem;
+}
+
 .logos img:hover {
   opacity: 1;
 }
@@ -2149,13 +2166,6 @@ body {
   aspect-ratio: 16 / 10;
 }
 
-.picdi img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  border-radius: var(--border-radius);
-}
-
 .imgtx {
   position: absolute;
   bottom: 2rem;
@@ -2171,7 +2181,7 @@ body {
 }
 
 .imgtx div {
-  background: rgba(255, 255, 255, 0.2);
+  background: #ff33;
   padding: 0.8rem 1.5rem;
   border-radius: 25px;
   font-weight: 500;
@@ -2225,10 +2235,6 @@ body {
   max-width: 70rem;
 }
 
-.lash3 span {
-  color: var(--secondary-color);
-}
-
 .lasdiv p {
   color: var(--text-light);
   font-size: clamp(1.2rem, 1.8vw, 2rem);
@@ -2261,12 +2267,6 @@ body {
   position: relative;
 }
 
-.finirm img {
-  max-width: 100%;
-  width: 40rem;
-  border-radius: var(--border-radius);
-}
-
 .finir2 {
   position: absolute;
   top: 50%;
@@ -2274,6 +2274,8 @@ body {
   transform: translate(-50%, -50%);
   cursor: pointer;
   transition: transform 0.3s ease;
+  position: absolut;
+  width: 97%;
 }
 
 .finir2:hover {
@@ -2332,19 +2334,9 @@ body {
   min-height: 40rem;
 }
 
-.first-feature-img img {
-  width: 35rem;
-  height: 35rem;
-}
-
 .justify-left {
   display: flex;
   width: 100%;
-}
-
-.finir2 {
-  position: absolut;
-  width: 97%;
 }
 
 .over2 {
