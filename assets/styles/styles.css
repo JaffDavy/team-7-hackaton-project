@@ -8,9 +8,10 @@
   --background-cream: #fff2e1;
   --background-white: #ffff;
   --border-radius: 12px;
-  --shadow-light: 0px 4px 12px #014;
-  --shadow-medium: 0px 6px 16px #026;
+  --shadow-light: 0 4px 12px #014;
+  --shadow-medium: 0 6px 16px #026;
 }
+
 * {
   margin: 0;
   padding: 0;
